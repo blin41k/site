@@ -133,7 +133,7 @@ a {
 	align-items: center;
 }
 
-.sneaker__big {
+.mansion__big {
 	display: flex;
 	max-width: 1140px;
 	padding: 48px;
@@ -143,48 +143,48 @@ a {
 	background: var(--white-100);
 }
 
-.sneaker__big__img {
+.mansion__big__img {
 	height: 600px;
 	align-self: stretch;
 	border-radius: 50px;
 }
 
-.sneaker__big__info {
+.mansion__big__info {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
 }
 
-.sneaker__big__title {
+.mansion__big__title {
 	font-size: 48px;
 	font-weight: 400;
 }
 
-.sneaker__big__subtitle {
+.mansion__big__subtitle {
 	font-size: 36px;
 	font-weight: 400;
 }
 
-.sneaker__big__text {
+.mansion__big__text {
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 28px;
 	flex: 1 0 0;
 }
 
-.sneaker__big__additional__info {
+.mansion__big__additional__info {
 	display: flex;
 	gap: 32px;
 }
 
-.sneaker__big__parameters {
+.mansion__big__parameters {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
 	flex: 1 0 0;
 }
 
-.sneaker__big__parameters__header {
+.mansion__big__parameters__header {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -195,34 +195,34 @@ a {
 	font-weight: 400;
 }
 
-.sneaker__big__parameters__line {
+.mansion__big__parameters__line {
 	height: 1px;
 	align-self: stretch;
 	background: var(--black);
 }
 
-.sneaker__big__parameter {
+.mansion__big__parameter {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
 }
 
-.sneaker__big__parameter__info {
+.mansion__big__parameter__info {
 	display: flex;
 	justify-content: space-between;
 }
 
-.sneaker__big__parameter__title {
+.mansion__big__parameter__title {
 	font-size: 20px;
 	font-weight: 400;
 }
 
-.sneaker__big__parameter__value {
+.mansion__big__parameter__value {
 	font-size: 20px;
 	font-weight: 400;
 }
 
-.sneaker__similar {
+.mansion__similar {
 	max-width: 1140px;
 	display: flex;
 	flex-direction: column;
@@ -230,43 +230,43 @@ a {
 	padding-bottom: 32px;
 }
 
-.sneaker__similar-title {
+.mansion__similar-title {
 	font-size: 48px;
 }
 
-.sneaker__similar-sneaker {
+.mansion__similar-mansion {
 	display: grid;
 	gap: 24px;
 	grid-template-columns: repeat(3, 1fr);
 }
 
-.sneaker {
+.mansion {
 	border-radius: 20px;
 	background: white;
 	height: fit-content;
 	transition: transform ease-out 0.25s;
 }
 
-.sneaker:hover {
+.mansion:hover {
 	transform: translateY(-10px);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.sneaker__img {
+.mansion__img {
 	display: block;
 	max-width: 100%;
 	border-radius: 20px;
 	padding: 5px 5px 0 5px;
 }
 
-.sneaker__info {
+.mansion__info {
 	display: flex;
 	padding: 32px 24px;
 	flex-direction: column;
 	gap: 12px;
 }
 
-.sneaker__info-title {
+.mansion__info-title {
 	align-self: stretch;
 	color: var(--black);
 	font-family: Anonymous Pro;
@@ -276,7 +276,7 @@ a {
 	line-height: normal;
 }
 
-.sneaker__info-subtitle {
+.mansion__info-subtitle {
 	align-self: stretch;
 	color: var(--black);
 	font-family: Anonymous Pro;
