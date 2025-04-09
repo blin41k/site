@@ -285,3 +285,8 @@ a {
 	font-weight: 400;
 	line-height: normal;
 }
+
+.title-header {
+	font-size: 40px;
+	margin-left: 36px;
+}
