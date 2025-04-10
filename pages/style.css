@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -157,7 +158,7 @@ a {
 
 .mansion__big__title {
 	font-size: 48px;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .mansion__big__subtitle {
@@ -289,4 +290,19 @@ a {
 .title-header {
 	font-size: 40px;
 	margin-left: 36px;
+}
+
+.for-map {
+	padding-top: 35px;
+}
+
+.map__big__text {
+	font-size: 30px;
+	font-weight: 450;
+	line-height: 28px;
+}
+
+.map {
+	margin-top: 20px;
+	border-radius: 50px;
 }
