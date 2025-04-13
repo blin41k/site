@@ -128,20 +128,21 @@ a {
 .card {
 	border-radius: 20px;
 	background: white;
-	height: fit-content;
-	transition: transform ease-out 0.25s;
+	transition: transform ease-out 0.20s;
+	height: 400px;
 }
 
 .card:hover {
-	transform: translateY(-10px);
+	transform: translateY(-15px);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .card__image {
-	display: block;
-	max-width: 100%;
 	border-radius: 20px;
-	padding: 5px 5px 0px 5px;
+  height: 250px;
+	padding: 5px 0 0 0;
+  width: calc(100% - 10px);
+  margin: 0 5px;
 }
 
 .cards__footer {
@@ -155,12 +156,6 @@ a {
 	margin-bottom: 10px;
 	text-align: center;
 }
-
-/* .card__text {
-	color: var(--black);
-	font-size: 20px;
-	font-weight: 400;
-} */
 
 .title-header {
 	font-size: 40px;
