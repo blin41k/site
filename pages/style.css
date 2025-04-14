@@ -309,3 +309,29 @@ a {
 	margin-top: 20px;
 	border-radius: 50px;
 }
+
+.email-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid var(--text_gray);
+  color: var(--text_gray);
+  border-radius: 4px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.email-button:hover {
+  background: var(--white);
+  color: var(--black);
+  border-color: var(--white);
+	transform: scale(1.05);
+}
+
+.email-gradient {
+  background: linear-gradient(90deg, #a1a6b4, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
